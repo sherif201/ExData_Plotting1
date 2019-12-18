@@ -35,7 +35,7 @@ with(data, plot(newdate, Sub_metering_1, type = "l", col = "black", xlab = "", y
 points(data$newdate, data$Sub_metering_2, type = "l", col = "red")
 points(data$newdate, data$Sub_metering_3, type = "l", col = "blue")
 
-#add legends to it
+#add legends to it.
 legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col = c("black", "red", "blue"), lty= c(1,1,1), box.lty = 0, inset = .01)
 
 #fourth graph
